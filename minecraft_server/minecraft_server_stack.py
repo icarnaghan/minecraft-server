@@ -61,7 +61,9 @@ class MinecraftServerStack(Stack):
             vpc_subnets=ec2.SubnetSelection(
                 subnet_type=ec2.SubnetType.PUBLIC
             ),
-            user_data=ec2.UserData.for_linux()
+            user_data=ec2.UserData.for_linux(),
+            # Add key pair for SSH access
+            key_name="minecraft"
         )
 
         # Add user data script for Minecraft installation
