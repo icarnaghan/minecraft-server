@@ -87,7 +87,7 @@ class MinecraftServerStack(Stack):
             "",
             "# Download Minecraft server JAR",
             "cd /opt/minecraft",
-            "wget -O server.jar https://piston-data.mojang.com/v1/objects/4707d00eb834b446575d89a61a11b5d548d8c001/server.jar",
+            "wget -O server.jar https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar",
             "chown minecraft:minecraft server.jar",
             "",
             "# Accept EULA",
