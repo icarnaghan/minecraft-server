@@ -50,7 +50,7 @@ A simple Minecraft server deployment on AWS using CDK with Python.
 ## Server Configuration
 
 - **Instance Type**: t4g.small (ARM64)
-- **Java Version**: Amazon Corretto 17
+- **Java Version**: Amazon Corretto 21
 - **Minecraft Version**: Latest server JAR
 - **Memory**: 1GB allocated to Minecraft
 - **Port**: 25565 (standard Minecraft port)

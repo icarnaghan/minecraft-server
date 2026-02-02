@@ -110,7 +110,7 @@ def test_user_data_script():
     user_data = user_data_b64  # Already decoded in template
     
     # Check for key installation steps
-    assert "java-17-amazon-corretto-headless" in user_data
+    assert "java-21-amazon-corretto-headless" in user_data
     assert "useradd -r -m -U -d /opt/minecraft" in user_data
     assert "server.jar" in user_data
     assert "eula=true" in user_data
